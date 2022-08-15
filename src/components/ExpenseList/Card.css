@@ -1,0 +1,59 @@
+.card{
+    background-color: antiquewhite;
+    padding: 12px;
+    margin: 2px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-card-container{
+    height: 40px;
+}
+.card-info{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 12px;
+}
+.card-title{
+    font-size: 16px;
+}
+.card-time{
+    color: gray;
+    font-size: 10px;
+}
+.card-amount{
+    font-size: 20px;
+    font-weight: 600;
+}
+.delete-icon{
+    font-size: 16px;
+}
+.card-right{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width:1024px){
+    .card-title{
+        font-size: 12px;
+    }
+    .card-amount{
+        font-size: 16px;
+    }
+    .card-time{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:512){
+    .card-title{
+        font-size: 12px;
+    }
+    .card-amount{
+        font-size: 12px;
+    }
+    
+}

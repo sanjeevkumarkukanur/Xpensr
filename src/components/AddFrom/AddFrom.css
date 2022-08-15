@@ -1,0 +1,93 @@
+.add-from-container{
+    background: #146665;
+    box-shadow:  5px 5px 10px #115756, -5px -5px 10px #177574;
+    margin: 4px 8px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 60vh;
+}
+.from-item{
+    margin: 12px 0; 
+    width: 70%;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: antiquewhite;
+}
+.from-item >label{
+    background-color: grey;
+    padding: 2px 4px;
+    margin-right: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    
+}
+.from-item > input{
+    background-color: antiquewhite;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    width: 70%;
+}
+.category-container-parent{
+ display: flex;
+ flex-direction: column;
+ flex: 1;
+}
+.category{
+    position: relative;
+    width: 40%;
+}
+.category-dropdown{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    margin: 12px 0;
+    padding: 4px;
+    border-radius: 6px;
+}
+.category-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.category-items{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    cursor: pointer;
+}
+.category-items:hover{
+    background-color: #187775;
+    border-radius: 2px;
+}
+.from-add-button{
+    display: flex;
+    justify-content: flex-end;
+}
+.from-add-button div{
+    display: flex;
+    border: 1px solid #000;
+    padding: 2px 6px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1024px){
+.from-item{
+    width: 100%;
+}
+.from-item input{
+    width:70%
+}
+.amount-input{
+    width: 50% !important;
+}
+.category{
+    width: 80%;
+}
+}

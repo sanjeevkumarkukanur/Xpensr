@@ -1,0 +1,15 @@
+.home-container{
+    width: 50%;
+    margin:auto;
+}
+@media only screen and( max-width:1024){
+    .home-container{
+        width: 90%;
+    }
+}
+
+@media only screen and( max-width:512){
+    .home-container{
+        width: 90%;
+    }
+}
